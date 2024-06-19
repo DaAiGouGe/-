@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    background: url(../image/background.png) no-repeat;
+    background-size: cover;
+}
+
+header#top {
+    background-color	: rgb(42, 237, 237);
+    height: 72px;
+    margin: 0px;
+}
+
+nav {
+    /* background-color: black; */
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+    /* 将li标签中的文字居中 */
+    text-align: center;
+}
+nav ul li {
+	/* display: inline; */
+	padding: 5px 10px 5px 10px;
+    /* 将其中多个文字之间隔开，设置右外边距 */
+    margin-right: 50px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: white;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+div#container-1 {
+	background-color: #954b4b;
+	height: 1000px;
+	width: 25%;
+	float: left;
+}
+
+div#container-2 {
+	background-color: white;
+	height: 1000px;
+	width: 75%;
+	float: left;
+}
